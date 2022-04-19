@@ -70,8 +70,8 @@ switch (days) {
 
 // Task 5
 
-const firstNumber = prompt("Enter first number", "");
-const secondNumber = prompt("Enter second number", "");
+const firstNumber = +prompt("Enter first number", "");
+const secondNumber = +prompt("Enter second number", "");
 
 if (firstNumber > secondNumber) {
     console.log(`The most biggest number is ${firstNumber}`);
